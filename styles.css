@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.registration-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.registration-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+.registration-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.registration-container input[type="text"],
+.registration-container input[type="email"],
+.registration-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.registration-container input[type="text"]:focus,
+.registration-container input[type="email"]:focus,
+.registration-container input[type="password"]:focus {
+    border-color: #6200ea;
+    outline: none;
+}
+
+.registration-container .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.registration-container .toggle-password {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.registration-container .password-container {
+    position: relative;
+}
+
+.registration-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6200ea;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.registration-container button:hover {
+    background-color: #3700b3;
+}
